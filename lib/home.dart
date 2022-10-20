@@ -68,7 +68,7 @@ class _HomeState extends State<Home> {
                 height: 30.0,
               ),
               // ignore: deprecated_member_use
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () {
                   setState(() {
                     outTemp =
@@ -94,7 +94,7 @@ class _HomeState extends State<Home> {
                   'Convert',
                   style: TextStyle(color: Colors.white),
                 ),
-                color: Colors.red,
+               // color: Colors.red,
               ),
             ],
           ),
